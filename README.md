@@ -1,2 +1,2 @@
-# twine-iOS-projct
-Sample project for localisation handling for iOS
+# twine-ios
+iOS sample project for [Twine](https://github.com/mobiata/twine)
