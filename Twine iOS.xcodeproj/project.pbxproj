@@ -14,6 +14,7 @@
 		8D629C021B3AA1590079D498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D629C011B3AA1590079D498 /* Images.xcassets */; };
 		8D629C051B3AA1590079D498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D629C031B3AA1590079D498 /* LaunchScreen.xib */; };
 		8D629C111B3AA15A0079D498 /* Twine_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D629C101B3AA15A0079D498 /* Twine_iOSTests.m */; };
+		8D8B5B591B3AA92100343AC1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B5B5B1B3AA92100343AC1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8D629C0A1B3AA15A0079D498 /* Twine iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twine iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D629C0F1B3AA15A0079D498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D629C101B3AA15A0079D498 /* Twine_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twine_iOSTests.m; sourceTree = "<group>"; };
+		8D8B5B5D1B3AA93200343AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				8D629C011B3AA1590079D498 /* Images.xcassets */,
 				8D629C031B3AA1590079D498 /* LaunchScreen.xib */,
 				8D629BF41B3AA1590079D498 /* Supporting Files */,
+				8D8B5B5B1B3AA92100343AC1 /* Localizable.strings */,
 			);
 			path = "Twine iOS";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D629C001B3AA1590079D498 /* Main.storyboard in Resources */,
+				8D8B5B591B3AA92100343AC1 /* Localizable.strings in Resources */,
 				8D629C051B3AA1590079D498 /* LaunchScreen.xib in Resources */,
 				8D629C021B3AA1590079D498 /* Images.xcassets in Resources */,
 			);
@@ -258,6 +262,14 @@
 				8D629C041B3AA1590079D498 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8D8B5B5B1B3AA92100343AC1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8B5B5D1B3AA93200343AC1 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +430,7 @@
 				8D629C161B3AA15A0079D498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D629C171B3AA15A0079D498 /* Build configuration list for PBXNativeTarget "Twine iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				8D629C191B3AA15A0079D498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
